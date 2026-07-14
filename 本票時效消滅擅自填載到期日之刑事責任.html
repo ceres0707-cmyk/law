@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法律 Wiki - 本票時效消滅擅自填載到期日之刑事責任</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        lawBlue: '#1e3a8a',
+                        lawGold: '#b45309',
+                        slateBg: '#f8fafc'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .tab-active {
+            border-bottom-color: #1e3a8a;
+            color: #1e3a8a;
+            font-weight: 700;
+        }
+        .fade-in {
+            animation: fadeIn 0.4s ease-in-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-slateBg text-slate-800 font-sans antialiased min-h-screen">
+
+    <header class="bg-gradient-to-r from-slate-900 to-indigo-950 text-white py-8 px-4 shadow-md">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex items-center space-x-3 mb-2">
+                <span class="bg-amber-500 text-slate-950 text-xs font-extrabold px-2.5 py-1 rounded-full uppercase">實務研究</span>
+                <span class="text-slate-300 text-sm">臺灣高等法院 113 年度重上更三字第 32 號刑事判決</span>
+            </div>
+            <h1 class="text-2xl md:text-4xl font-bold tracking-tight">
+                本票時效消滅擅自填載到期日之刑事責任
+            </h1>
+            <p class="text-slate-400 mt-2 text-sm md:text-base">
+                探討無授權填載到期日之「變造」定性，與非訟事件使公務員登載不實罪之交涉。
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-8 space-y-12">
+
+        <section class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+            <div class="bg-slate-50 border-b border-slate-200 p-5 flex items-center space-x-3">
+                <div class="bg-indigo-100 text-indigo-700 p-2 rounded-lg">
+                    <i class="fa-solid fa-scale-balanced text-lg"></i>
+                </div>
+                <h2 class="text-xl font-bold text-slate-900">案例背景與變造明細</h2>
+            </div>
+            <div class="p-6">
+                <p class="text-slate-600 leading-relaxed mb-6">
+                    被告黃宏裕持有林麗堂等 5 人所簽發、未載到期日之 <strong class="text-slate-900">本票 5 紙</strong>。該票據權利因發票人自發票日起算，已逾 3 年未行使而 <strong class="text-red-600">時效消滅</strong>。被告為規避時效，於 100 年至 105 年間，擅自在到期日欄加蓋或手寫到期日，使本票在外觀上看似未罹於時效，並持向法院聲請 <strong class="text-indigo-700">本票裁定</strong> 以強制執行，致使司法事務官登載於職務上所掌之民事裁定書。
+                </p>
+
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-slate-200 text-sm">
+                        <thead class="bg-slate-50">
+                            <tr>
+                                <th class="px-4 py-3 text-left font-semibold text-slate-700">編號</th>
+                                <th class="px-4 py-3 text-left font-semibold text-slate-700">發票日</th>
+                                <th class="px-4 py-3 text-left font-semibold text-slate-700">變造到期日</th>
+                                <th class="px-4 py-3 text-left font-semibold text-slate-700">票面金額</th>
+                                <th class="px-4 py-3 text-left font-semibold text-slate-700">本票裁定案號</th>
+                                <th class="px-4 py-3 text-left font-semibold text-slate-700">到期日字跡/章戳特徵</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100">
+                            <tr class="hover:bg-slate-50/80 transition">
+                                <td class="px-4 py-3 font-medium text-slate-900">1</td>
+                                <td class="px-4 py-3 text-slate-600">66年6月30日</td>
+                                <td class="px-4 py-3 text-amber-700 font-medium">100年6月30日</td>
+                                <td class="px-4 py-3 text-slate-600">127萬元</td>
+                                <td class="px-4 py-3 text-slate-500">100年度司票字第14029號</td>
+                                <td class="px-4 py-3 text-slate-500 text-xs">蓋用戳章（年份為百位數，字型與發票日相異）</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50/80 transition">
+                                <td class="px-4 py-3 font-medium text-slate-900">2</td>
+                                <td class="px-4 py-3 text-slate-600">66年6月30日</td>
+                                <td class="px-4 py-3 text-amber-700 font-medium">100年6月30日</td>
+                                <td class="px-4 py-3 text-slate-600">127萬元</td>
+                                <td class="px-4 py-3 text-slate-500">101年度司票字第10614號</td>
+                                <td class="px-4 py-3 text-slate-500 text-xs">蓋用戳章（年份為百位數，字型與發票日相異）</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50/80 transition">
+                                <td class="px-4 py-3 font-medium text-slate-900">3</td>
+                                <td class="px-4 py-3 text-slate-600">64年6月25日</td>
+                                <td class="px-4 py-3 text-amber-700 font-medium">100年6月25日</td>
+                                <td class="px-4 py-3 text-slate-600">150萬元</td>
+                                <td class="px-4 py-3 text-slate-500">102年度司票字第18232號</td>
+                                <td class="px-4 py-3 text-slate-500 text-xs">蓋用戳章（年份為百位數，字型與發票日相異）</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50/80 transition">
+                                <td class="px-4 py-3 font-medium text-slate-900">4</td>
+                                <td class="px-4 py-3 text-slate-600">80年12月27日</td>
+                                <td class="px-4 py-3 text-amber-700 font-medium">102年12月27日</td>
+                                <td class="px-4 py-3 text-slate-600">150萬元</td>
+                                <td class="px-4 py-3 text-slate-500">（於民事訴訟中行使）</td>
+                                <td class="px-4 py-3 text-slate-500 text-xs">蓋用戳章（到期日「12」、「27」印色較深且偏斜）</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50/80 transition">
+                                <td class="px-4 py-3 font-medium text-slate-900">5</td>
+                                <td class="px-4 py-3 text-slate-600">82年10月12日</td>
+                                <td class="px-4 py-3 text-amber-700 font-medium">104年10月12日</td>
+                                <td class="px-4 py-3 text-slate-600">150萬元</td>
+                                <td class="px-4 py-3 text-slate-500">105年度司票字第4160號</td>
+                                <td class="px-4 py-3 text-slate-500 text-xs">手寫「一○四年十月十二日」（字跡較發票日平正）</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </</section>
+
+        <section class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+            <div class="bg-slate-50 border-b border-slate-200 p-5 flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-amber-100 text-amber-700 p-2 rounded-lg">
+                        <i class="fa-solid fa-magnifying-glass text-lg"></i>
+                    </div>
+                    <h2 class="text-xl font-bold text-slate-900">爭點互動導覽 <span class="text-sm font-normal text-slate-500">（三段論法）</span></h2>
+                </div>
+            </div>
+            
+            <div class="flex border-b border-slate-200 bg-slate-50/50">
+                <button onclick="switchTab('issue1')" id="tab-issue1" class="flex-1 py-4 text-center text-sm font-semibold border-b-2 border-transparent hover:text-indigo-700 transition tab-active">
+                    爭點一：私填到期日之變造定性
+                </button>
+                <button onclick="switchTab('issue2')" id="tab-issue2" class="flex-1 py-4 text-center text-sm font-semibold border-b-2 border-transparent hover:text-indigo-700 transition text-slate-500">
+                    爭點二：聲請本票裁定之處斷
+                </button>
+            </div>
+
+            <div class="p-6">
+                <div id="content-issue1" class="space-y-6 fade-in">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-slate-50 p-5 rounded-lg border-l-4 border-indigo-600">
+                            <span class="bg-indigo-600 text-white text-xs font-bold px-2 py-0.5 rounded-full uppercase">大前提</span>
+                            <h4 class="font-bold text-slate-900 mt-2 mb-2">有價證券之偽造與變造</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                刑法第 201 條處罰「偽造」與「變造」。<strong>「偽造」</strong>係指無制作權人假冒他人名義製作全新票據；<strong>「變造」</strong>則指無更改權人就<strong>真正且有效</strong>之票據，在不變更本質下，變更權利內容。依票據法第 120 條第 2 項，未載到期日本票<strong>視為見票即付</strong>，簽發時即非空白票據而屬有效。
+                            </p>
+                        </div>
+                        <div class="bg-slate-50 p-5 rounded-lg border-l-4 border-amber-500">
+                            <span class="bg-amber-500 text-slate-950 text-xs font-bold px-2 py-0.5 rounded-full uppercase">事實涵攝</span>
+                            <h4 class="font-bold text-slate-900 mt-2 mb-2">未獲授權私自加蓋到期日</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                本案本票發票人簽章為真，到期日欄留白，屬於已生效票據。被告黃宏裕未獲授權，於時效消滅後擅自填載特定日期，其行為並非創製新票據，而是變更既存有價證券之時效起算點與法律關係，並不影響其本票本質。
+                            </p>
+                        </div>
+                        <div class="bg-indigo-50/50 p-5 rounded-lg border-l-4 border-emerald-500">
+                            <span class="bg-emerald-500 text-white text-xs font-bold px-2 py-0.5 rounded-full uppercase">結論</span>
+                            <h4 class="font-bold text-slate-900 mt-2 mb-2">構成「變造有價證券罪」</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                被告擅自填載本票到期日之行為，法律定性為<strong>「變造有價證券」</strong>，該當刑法第 201 條第 1 項。起訴書雖載為「偽造」，但兩者法條同一，僅行為態樣不同，法院毋庸變更起訴法條。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content-issue2" class="space-y-6 hidden fade-in">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-slate-50 p-5 rounded-lg border-l-4 border-indigo-600">
+                            <span class="bg-indigo-600 text-white text-xs font-bold px-2 py-0.5 rounded-full uppercase">大前提</span>
+                            <h4 class="font-bold text-slate-900 mt-2 mb-2">公務員登載不實之審查界線</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                刑法第 214 條使公務員登載不實罪，以公務員對申報事項<strong>僅具形式審查義務</strong>為限。本票裁定屬非訟事件，司法事務官僅就票據外觀進行形式審查，對實體法律關係或內容真偽並無實質審查權。
+                            </p>
+                        </div>
+                        <div class="bg-slate-50 p-5 rounded-lg border-l-4 border-amber-500">
+                            <span class="bg-amber-500 text-slate-950 text-xs font-bold px-2 py-0.5 rounded-full uppercase">事實涵攝</span>
+                            <h4 class="font-bold text-slate-900 mt-2 mb-2">持變造本票聲請民事裁定</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                被告明知本票到期日係私自變造，仍執意向法院聲請強制執行裁定。使不知情的司法事務官經形式審查後核准，並將該虛假到期日登載於職務上所掌的民事裁定書，致生損害於司法裁定正確性與發票人權益。
+                            </p>
+                        </div>
+                        <div class="bg-indigo-50/50 p-5 rounded-lg border-l-4 border-emerald-500">
+                            <span class="bg-emerald-500 text-white text-xs font-bold px-2 py-0.5 rounded-full uppercase">結論</span>
+                            <h4 class="font-bold text-slate-900 mt-2 mb-2">與變造罪採想像競合從一重</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                此舉該當刑法第 214 條之<strong>使公務員登載不實罪</strong>。其與行使變造有價證券罪之間具有手段目的之關係，依刑法第 55 條從一重處斷，<strong>以變造有價證券罪處斷</strong>。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+            <div class="bg-slate-50 border-b border-slate-200 p-5 flex items-center space-x-3">
+                <div class="bg-emerald-100 text-emerald-700 p-2 rounded-lg">
+                    <i class="fa-solid fa-diagram-project text-lg"></i>
+                </div>
+                <h2 class="text-xl font-bold text-slate-900">構成要件該當性檢驗 <span class="text-sm font-normal text-slate-500">（刑法三階論實務檢視）</span></h2>
+            </div>
+            
+            <div class="p-6">
+                <p class="text-sm text-slate-500 mb-6 flex items-center">
+                    <i class="fa-solid fa-circle-info mr-2 text-indigo-500 animate-pulse"></i> 
+                    點選左側構成要件按鈕，右側將即時呈現本案的實務涵攝事實與理由。
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+                    <div class="md:col-span-4 flex flex-col space-y-3">
+                        <button onclick="showElementDetail('obj-target')" id="btn-obj-target" class="element-btn w-full text-left p-4 rounded-lg border border-slate-200 hover:border-indigo-500 hover:bg-indigo-50/20 transition flex items-center justify-between group bg-indigo-50 border-indigo-500">
+                            <div>
+                                <span class="text-xs font-semibold text-slate-400 group-hover:text-indigo-500">行為客體</span>
+                                <h4 class="font-bold text-slate-900 text-sm">有價證券適格性</h4>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-indigo-500"></i>
+                        </button>
+
+                        <button onclick="showElementDetail('obj-act')" id="btn-obj-act" class="element-btn w-full text-left p-4 rounded-lg border border-slate-200 hover:border-indigo-500 hover:bg-indigo-50/20 transition flex items-center justify-between group">
+                            <div>
+                                <span class="text-xs font-semibold text-slate-400 group-hover:text-indigo-500">行為態樣</span>
+                                <h4 class="font-bold text-slate-900 text-sm">變造行為之定性</h4>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-slate-300 group-hover:text-indigo-500"></i>
+                        </button>
+
+                        <button onclick="showElementDetail('obj-gov')" id="btn-obj-gov" class="element-btn w-full text-left p-4 rounded-lg border border-slate-200 hover:border-indigo-500 hover:bg-indigo-50/20 transition flex items-center justify-between group">
+                            <div>
+                                <span class="text-xs font-semibold text-slate-400 group-hover:text-indigo-500">使公務員登載</span>
+                                <h4 class="font-bold text-slate-900 text-sm">形式審查之該當</h4>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-slate-300 group-hover:text-indigo-500"></i>
+                        </button>
+
+                        <button onclick="showElementDetail('sub-intent')" id="btn-sub-intent" class="element-btn w-full text-left p-4 rounded-lg border border-slate-200 hover:border-indigo-500 hover:bg-indigo-50/20 transition flex items-center justify-between group">
+                            <div>
+                                <span class="text-xs font-semibold text-slate-400 group-hover:text-indigo-500">超額主觀要素</span>
+                                <h4 class="font-bold text-slate-900 text-sm">行使票據之意圖</h4>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-slate-300 group-hover:text-indigo-500"></i>
+                        </button>
+                    </div>
+
+                    <div class="md:col-span-8 bg-slate-50 rounded-xl p-6 border border-slate-200 min-h-[220px] flex items-center">
+                        <div id="detail-obj-target" class="element-detail-content space-y-3 w-full">
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-emerald-500 text-white text-xs font-bold px-2 py-0.5 rounded">該當 / 適格</span>
+                                <h3 class="text-lg font-bold text-slate-900">有價證券適格性分析</h3>
+                            </div>
+                            <p class="text-slate-600 leading-relaxed text-sm">
+                                發票人所簽發之本票未載到期日者，依票據法第 120 條第 2 項明定<strong>「視為見票即付」</strong>。其在簽發交付時，即已具備絕對必要記載事項而具備完全之票據效力，並非無效之空白票據，自屬有效之「真正有價證券」。
+                            </p>
+                        </div>
+
+                        <div id="detail-obj-act" class="element-detail-content space-y-3 hidden w-full">
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-emerald-500 text-white text-xs font-bold px-2 py-0.5 rounded">該當</span>
+                                <h3 class="text-lg font-bold text-slate-900">變造行為之客觀認定</h3>
+                            </div>
+                            <p class="text-slate-600 leading-relaxed text-sm">
+                                被告在未獲授權且本票時效已消滅後，私自在到期日欄填上特定日期。此舉並非假冒他人名義製作「偽造」，而是就<strong>已具效力之有價證券</strong>更改其記載內容，藉此改變時效起算點以變更法律關係，完全符合「變造」之定義。
+                            </p>
+                        </div>
+
+                        <div id="detail-obj-gov" class="element-detail-content space-y-3 hidden w-full">
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-emerald-500 text-white text-xs font-bold px-2 py-0.5 rounded">該當</span>
+                                <h3 class="text-lg font-bold text-slate-900">使公務員登載不實罪</h3>
+                            </div>
+                            <p class="text-slate-600 leading-relaxed text-sm">
+                                <strong>本票裁定屬於非訟事件</strong>，法院審判人員（司法事務官）僅能做形式要件之審查，並無實質審判與確信權利關係真偽之權限。被告明知到期日不實仍執以聲請裁定，使司法事務官將此不實日期登載於裁定書，確已符合刑法第 214 條要件。
+                            </p>
+                        </div>
+
+                        <div id="detail-sub-intent" class="element-detail-content space-y-3 hidden w-full">
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-emerald-500 text-white text-xs font-bold px-2 py-0.5 rounded">該當</span>
+                                <h3 class="text-lg font-bold text-slate-900">意圖供行使之用</h3>
+                            </div>
+                            <p class="text-slate-600 leading-relaxed text-sm">
+                                被告於變造本票到期日後，持向法院聲請強制執行以謀求受償，或於事後之民事確認本票債權不存在之訴中，提出該變造本票作為有利時效抗辯之舉證。主觀上顯具有<strong>「供行使之用」之不法超額意圖</strong>。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden flex flex-col justify-between">
+                <div class="p-6">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="bg-rose-100 text-rose-700 p-2.5 rounded-lg">
+                            <i class="fa-solid fa-vial-virus text-lg"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900">戳章限期與物理事實比對</h3>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        被告抗辯稱本票上的到期日戳章於 64 年及 66 年交付時即已蓋妥。然經法院向臺灣教育用品工業同業公會及三燕興業調查，市售日期橡皮戳章經年累月使用會磨損模糊，<strong>一般使用極限僅為 10 年</strong>。
+                    </p>
+                    <div class="mt-4 bg-amber-50 border border-amber-200 text-amber-800 rounded-lg p-3 text-xs">
+                        <strong>物理鐵證：</strong>文具業界不可能在 60 年代生產出可轉動預鑄到 100 年之日期戳章，此物理限制直接擊破被告之抗辯。
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden flex flex-col justify-between">
+                <div class="p-6">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="bg-blue-100 text-blue-700 p-2.5 rounded-lg">
+                            <i class="fa-solid fa-fingerprint text-lg"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900">印文鑑定材料與「道伯法則」</h3>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        依刑事訴訟法第 206 條第 3 項之規範（參酌美國 <strong>道伯法則 Daubert Standard</strong>），科學鑑定證據之可信度，必須檢視其<strong>「是否以足夠且具代表性之資料為基礎」</strong>。
+                    </p>
+                    <div class="mt-4 bg-blue-50 border border-blue-200 text-blue-800 rounded-lg p-3 text-xs">
+                        <strong>審查結果：</strong>被告雖提出另份蓋有授權文字之印文鑑定，但該比對本票來源之真偽存有極大爭議，所憑材料不具程序適格性，法院自得不予採信。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-amber-500 rounded-xl shadow-md overflow-hidden text-slate-950 p-6 md:p-8">
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div class="space-y-2">
+                    <div class="flex items-center space-x-2">
+                        <i class="fa-solid fa-triangle-exclamation text-xl text-slate-950"></i>
+                        <h3 class="text-lg font-extrabold uppercase tracking-wide">刑事紅線 ‧ 權利救濟警示</h3>
+                    </div>
+                    <p class="text-sm font-medium leading-relaxed max-w-3xl">
+                        本票消滅時效（3 年不行使）完成後，<strong>票據權利雖已消滅，但實體普通債權（如借貸關係）並未消滅</strong>，執票人仍可循民事訴訟程序主張權利。
+                        <strong class="underline decoration-2">執票人絕無擅自填載本票記載事項以延續時效之權限</strong>，切勿以實體上有借貸關係作為私填票據的免責事由！
+                    </p>
+                </div>
+                <div class="bg-slate-950 text-amber-400 font-extrabold px-6 py-4 rounded-lg shadow text-center w-full md:w-auto flex-shrink-0">
+                    刑法第 201 條第 1 項<br><span class="text-white text-xs font-normal">最輕本刑 3 年以上有期徒刑</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-500 text-center py-6 border-t border-slate-800 text-xs">
+        <p>© 2026 法律Wiki ‧ 數位互動判決教材研究版。此判決分析依臺灣高等法院 113 年度重上更三字第 32 號刑事判決整理。</p>
+    </footer>
+
+    <script>
+        // 1. 爭點 Tab 切換邏輯
+        function switchTab(tabId) {
+            // 切換按鈕樣式
+            const tab1 = document.getElementById('tab-issue1');
+            const tab2 = document.getElementById('tab-issue2');
+            
+            // 切換內容顯示
+            const content1 = document.getElementById('content-issue1');
+            const content2 = document.getElementById('content-issue2');
+
+            if (tabId === 'issue1') {
+                tab1.classList.add('tab-active');
+                tab1.classList.remove('text-slate-500');
+                tab2.classList.remove('tab-active');
+                tab2.classList.add('text-slate-500');
+
+                content1.classList.remove('hidden');
+                content2.classList.add('hidden');
+            } else {
+                tab2.classList.add('tab-active');
+                tab2.classList.remove('text-slate-500');
+                tab1.classList.remove('tab-active');
+                tab1.classList.add('text-slate-500');
+
+                content2.classList.remove('hidden');
+                content1.classList.add('hidden');
+            }
+        }
+
+        // 2. 構成要件互動檢驗邏輯
+        function showElementDetail(elementId) {
+            // 隱藏所有 detail
+            const details = document.querySelectorAll('.element-detail-content');
+            details.forEach(detail => detail.classList.add('hidden'));
+
+            // 移除所有按鈕的 active 狀態 (背景與邊框色)
+            const buttons = document.querySelectorAll('.element-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-indigo-50', 'border-indigo-500');
+                btn.classList.add('border-slate-200');
+                
+                // 箭頭變淡
+                const icon = btn.querySelector('i');
+                icon.className = 'fa-solid fa-chevron-right text-slate-300 group-hover:text-indigo-500';
+            });
+
+            // 顯示當前點選的 detail
+            const activeDetail = document.getElementById('detail-' + elementId);
+            activeDetail.classList.remove('hidden');
+            activeDetail.classList.add('fade-in');
+
+            // 點選的按鈕高亮
+            const activeBtn = document.getElementById('btn-' + elementId);
+            activeBtn.classList.remove('border-slate-200');
+            activeBtn.classList.add('bg-indigo-50', 'border-indigo-500');
+            
+            // 點選的箭頭變亮
+            const activeIcon = activeBtn.querySelector('i');
+            activeIcon.className = 'fa-solid fa-chevron-right text-indigo-500';
+        }
+    </script>
+</body>
+</html>
